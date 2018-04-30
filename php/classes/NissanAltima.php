@@ -30,7 +30,7 @@ class Profile extends Vehicle implements \JsonSerializable {
 	 * @throws \Exception if some other exception occurs
 	 * @Documentation https://php.net/manual/en/language.oop5.decon.php
 	 **/
-	public function __construct(bool $belongsToMarlon) {
+	public function __construct(bool $newBelongsToMarlon) {
 		try {
 			$this->setBelongsToMarlon($belongsToMarlon);
 		} //determine what exception type was thrown
