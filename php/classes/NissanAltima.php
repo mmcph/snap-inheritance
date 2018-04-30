@@ -11,7 +11,7 @@ namespace Edu\Cnm\DataDesign;
 require_once("autoload.php");
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
-class Profile extends Vehicle implements \JsonSerializable {
+class NissanAltima extends Vehicle implements \JsonSerializable {
 
 	/**
 	 * does this belong to me? this is the primary key

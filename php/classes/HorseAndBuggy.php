@@ -11,7 +11,7 @@ namespace Edu\Cnm\DataDesign;
 require_once("autoload.php");
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
-class Profile implements \JsonSerializable {
+class HorseAndBuggy extends Vehicle implements \JsonSerializable {
 
 	/**
 	 * numHorses; this is the primary key
